@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "AnimaleQuote"
 include(":app")
 include(":domain")
+include(":data")

@@ -17,3 +17,4 @@ rootProject.name = "AnimaleQuote"
 include(":app")
 include(":domain")
 include(":data")
+include(":presentation")

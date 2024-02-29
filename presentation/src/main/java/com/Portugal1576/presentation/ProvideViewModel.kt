@@ -1,6 +1,6 @@
 package com.Portugal1576.presentation
 
-interface ProdideViewModel {
+interface ProvideViewModel {
 
     fun viewModel(): MainViewModel
 }

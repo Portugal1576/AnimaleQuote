@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val viewModel = (application as ProdideViewModel).viewModel()
+        val viewModel = (application as ProvideViewModel).viewModel()
 
         viewModel.liveData.observe(this){
             binding.mainText.text = it
